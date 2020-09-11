@@ -10,7 +10,7 @@ section
 video
 {
     object-fit: cover;
-    color: green;
+    color: white;
 }
 #name
 {
@@ -23,7 +23,7 @@ video
     text-align: center;
     color: red;
     font-size: 5rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Londrina Solid', cursive;
     letter-spacing: 0.2em;
 }
 h1 span{
@@ -31,6 +31,7 @@ h1 span{
     display: inline-block;
     animation: animate 1s linear forwards;
 }
+
 @keyframes animate
 {
     0%
@@ -48,33 +49,77 @@ h1 span{
 }
 h1 span:nth-child(1)
 {
-    animation-delay: 1s;
-    
+    animation-delay: 0.5s;
+    /* i */
 }
 h1 span:nth-child(2)
 {
-    animation-delay: 2s;
-
+    animation-delay: 1s;
+    /* t */
 }
 h1 span:nth-child(3)
 {
-    animation-delay: 2.5s;
-
+    animation-delay: 1.5s;
+    /* ' */
 }
 h1 span:nth-child(4)
 {
-    animation-delay: 3s;
-
+    animation-delay: 2s;
+    /* s */
 }
 h1 span:nth-child(5)
 {
-    animation-delay: 3.5s;
-
+    animation-delay: 2s;
 }
 h1 span:nth-child(6)
 {
+    animation-delay: 2.5s;
+     /* Y */
+}
+h1 span:nth-child(7)
+{
+    animation-delay: 3s;
+    /* O */
+}
+h1 span:nth-child(8)
+{
+    animation-delay: 3.5s;
+     /* u */
+}
+h1 span:nth-child(9)
+{
+    animation-delay: 4s;
+     /* r */
+}
+h1 span:nth-child(10)
+{
     animation-delay: 4s;
 
+}
+h1 span:nth-child(11)
+{
+    animation-delay: 4.5s;
+    /* R */
+}
+h1 span:nth-child(12)
+{
+    animation-delay: 5s;
+     /* u */
+}
+h1 span:nth-child(13)
+{
+    animation-delay: 5.5s;
+     /* c */
+}
+h1 span:nth-child(14)
+{
+    animation-delay: 6s;
+     /* h */
+}
+h1 span:nth-child(15)
+{
+    animation-delay: 6.5s;
+     /* i */
 }
 #challenge
 {
@@ -86,67 +131,7 @@ h1 span:nth-child(6)
     width: 100%;
     text-align: center;
     color: red;
-    font-size: 4rem;
+    font-size: 2rem;
     font-family: 'Ubuntu', sans-serif;
     letter-spacing: 0.2em;
-}
-#challenge span:nth-child(1)
-{
-    animation-delay: 0.5s;
-    
-}
-#challenge span:nth-child(2)
-{
-    animation-delay: 1s;
-
-}
-#challenge span:nth-child(3)
-{
-    animation-delay: 1.5s;
-
-}
-#challenge span:nth-child(4)
-{
-    animation-delay: 2s;
-
-}
-#challenge span:nth-child(5)
-{
-    animation-delay: 2.5s;
-
-}
-#challenge span:nth-child(6)
-{
-    animation-delay: 3s;
-
-}
-#challenge span:nth-child(7)
-{
-    animation-delay: 3.5s;
-
-}
-#challenge span:nth-child(8)
-{
-    animation-delay: 4s;
-
-}
-#challenge span:nth-child(9)
-{
-    animation-delay: 4.5s;
-
-}
-#challenge span:nth-child(10)
-{
-    animation-delay: 5s;
-
-}
-#challenge span:nth-child(11)
-{
-    animation-delay: 5.5s;
-
-}
-#challenge span:nth-child(12)
-{
-    animation-delay: 6s;
-
 }

@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: consolas;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+}
+.wavy
+{
+    position: relative;
+    -webkit-box-reflect: below -12px linear-gradient(
+        transparent, rgba(0,0,0,0.2));
+}
+.wavy span
+{
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-size: 2em;
+    text-transform: uppercase;
+    animation: animate 2.2s ease-in-out infinite;
+    animation-delay: calc(0.1s *var(--i));
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: translateY(0px);
+    }
+    20%
+    {
+        transform: translateY(-20px);
+    }
+    40%,100%
+    {
+        transform: translateY(0px);
+    }
+}
+/* creation of moon */
+.moon {
+    position: absolute;
+    top: 10%;
+    right: 200px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #ddd;
+    box-shadow: inset 20px -10px 0 0 #b9b9b9;
+  }
+  
+  .moon .crater1 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #bbb;
+    box-shadow: inset -3px 1.5px 0 0 #aaa;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .moon .crater2 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #bbb;
+    box-shadow: inset -1px 0.5px 0 0 #aaa;
+    top: 45px;
+    right: 50px;
+  }
+  
+  .moon .crater3 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #bbb;
+    box-shadow: inset -1.5px 0.75px 0 0 #aaa;
+    top: 60px;
+    right: 25px;
+  }

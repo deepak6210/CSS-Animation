@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #262626;
+    font-family: arial;
+}
+.loader
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.loader h1{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 5em;
+    color: rgba(255,255,255,.1);
+    background-image: url(fireworks-shape.jpg);
+    -webkit-background-clip: text;
+    animation: animate 15s linear infinite;
+    background-repeat: repeat-x;
+}
+@keyframes animate
+{
+    0%
+    {
+        background-position: left 0px top 80px;
+    }
+    40%
+    {
+        background-position: 800px top -50px;
+    }
+    80%
+    {
+        background-position: left 1800px top -50px;
+    }
+    100%
+    {
+        background-position: left 2400px top 80px;
+    }
+}
